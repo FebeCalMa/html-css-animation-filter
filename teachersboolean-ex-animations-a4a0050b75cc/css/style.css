@@ -79,7 +79,23 @@
 }
 /*--/ B/W FILTER--*/
 
-/*--B/W */
+/*--B/W transition--*/
+.ex-7-img:hover{
+    transition: 2s;
+    filter: grayscale(2)
+}
+/*--/  B/W transition--*/
+
+/*--Transition, border radious--*/
+.ex-8-img:hover{
+    transition: 1s;
+    border-radius: 10px;
+}
+.ex-8-img:active{
+    transition: 0.5s;
+    filter: grayscale();
+}
+/*--/Transition, border radious--*/
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
