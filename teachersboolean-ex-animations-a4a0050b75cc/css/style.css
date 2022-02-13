@@ -30,6 +30,8 @@
     background: red;
 }
 .ex-3-square:hover{
+    transition: 3s;
+    border-radius: 100%;
 
 }
 /*--/square to circle--*/
@@ -48,11 +50,22 @@
 
 /*--grow small--*/
 .ex-5-square {
-    margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+.ex-5-square:hover{
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.ex-5-square:active{
+    width: 60px;
+    height: 60px;
+    background: red;
+}
+
 /*--/grow small--*/
 
 
@@ -60,6 +73,13 @@
     width: 500px;
 }
 
+/*--B/W FILTER--*/
+.ex-6-img:hover{
+    filter: grayscale(2);
+}
+/*--/ B/W FILTER--*/
+
+/*--B/W */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
